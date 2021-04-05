@@ -1,193 +1,271 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-<body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
-		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
+  <head>
+    <title>WonderWoman</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <!-- for facebook like button -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v10.0" nonce="O2FNQ044"></script>
+    
+    <!-- logo -->
+    <div>
+      <img src="newlogo.png" style="width: 100%; height: 12cm; filter: grayscale(40%);">
+    </div>
 
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
+    <!-- main menu -->
+    <div id="menu">
+      <a href="#about">About Me</a>
+      <a href="#photos">My Photos</a>
+      <a href="#playlist">My Playlist</a>
+      <a href="#like">Like</a>
+      <a href="#qrcoder">QR code</a>
+      <a href="#spa">Q&A</a>
+      <a href="#contact">Contact Me</a>
+    </div>
 
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <section id="about" class="section">
+      <h1>about me</h1>
+      <div style="text-align: center;" id="me">
+        Wonder Woman is a fictional superheroine, <br>
+        appearing in American comic books published by DC Comics.<br>
+        The character first appeared in All Star Comics #8 in October 1941 <br> 
+        and she is a founding member of the Justice League. <br>
+        In her homeland, the island nation of Themyscira, her official title is Princess Diana of Themyscira.<br>
+        in another version, she is Diana, the Princess of the Amazons (based on Greek mythology),<br> 
+        that has superhuman abilities and tools given to her by the Olympic gods,<br>
+        in order to bring peace, love and brotherhood to a divided world.<br>
+        In the latest adaptation of the character, she received her characteristics and powers from the gods -<br> 
+        beauty like Aphrodite, wisdom like Athena, physical power like Demeter,<br>
+        and animal instincts like Artemis.<br>
+        When blending into the society outside of her homeland,<br>
+        she sometimes adopts her civilian identity Diana Prince.<br>
+      </div>
+    </section>
+      
+    <section id="photos" class="section">
+      <br/>
+      <br/>
+      <br/>
+      <h1>my photos</h1>
+      <br/>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+      
+        <!-- images slides and their number and description -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="img1.jpg" style="width:100%; height: 12cm;">
+          <div class="text">Caption Text</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="img2.jpg" style="width:100%; height: 12cm;">
+          <div class="text">Caption Two</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="img3.jpg" style="width:100%; height: 12cm;">
+          <div class="text">Caption Three</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 5</div>
+          <img src="img4.png" style="width:100%; height: 12cm;">
+          <div class="text">Caption Four</div>
+        </div>
 
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <img src="img7.jpg" style="width:100%; height: 12cm;">
+          <div class="text">Caption Five</div>
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+    </section>
+      
+    <section id="playlist" class="section">
+      <br/>
+      <br/>
+      <br/>
+      <h1>my playlist</h1>
+      <br/>
+      <br/>
+      <br/>
+      <div style="text-align:center">
+        <iframe style="margin-left: auto;margin-right: auto;" width="560" height="315" src="https://www.youtube.com/embed/wtptbU6j4q4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
 
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
+    <section id="like" class="section">
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <h1>give me a like</h1>
+      <br/>
+      <br/>
+      <br/>
+      <div style="text-align:center">
+      <div class="fb-like" data-href="https://www.facebook.com/wonderwoman" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="false"></div>
+      </div>
+    </section>
+    
 
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
+    <section id="qrcoder" class="section">
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <h1>scan my code</h1>
+      <br/>
+      <br/>
+      <br/>
+    </section>
+      
+    <section id="spa" class="section">
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <h1>ans</h1>
+      <br/>
+      <br/>
+      <br/>
+    </section>
+      
+    <section id="contact" class="section">
+      <br/>
+      <br/>
+      <h1>contact me</h1>
+      <br/>
+        <form name="contact" action="mailto:shayrokach198@gmail.com" method="post">
+          <label>Name</label>
+          <br>
+          <input type="text" name="name" />
+          <br><br>
+          <label>Email from</label>
+          <br>
+          <input type="email" name="email" />
+          <br><br>
+          <label>Message</label>
+          <br>
+          <textarea name="message" rows="10" cols="80"></textarea>
+          <br><br>
+        
+          <input type="submit" name="send" value="Send Message"/>
+        </form>
+      
+      <br/>
+      <br/>
+      <br/>
+    </section>
+      
+      
+    <script type="text/javascript">
+      $(function(){
+        $("#nav a").click(function(e){
+          e.preventDefault();
+          $('html,body').scrollTo(this.hash,this.hash); 
+        });
+      });
+      </script>
+      <script type="text/javascript">
+       $(document).scroll(function() {
+          $('#menu').toggle($(this).scrollTop()>1000)
+       });​
+    </script>
+    <script>
+      // When the user scrolls the page, execute myFunction
+      window.onscroll = function() {myFunction()};
 
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
+      // Get the menu
+      var menu = document.getElementById("menu");
 
+      // Get the offset position of the menu
+      var sticky = menu.offsetTop;
 
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
-</body>
+      // Add the sticky class to the menu when you reach its scroll position. Remove "sticky" when you leave the scroll position
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          menu.classList.add("sticky")
+        } else {
+          menu.classList.remove("sticky");
+        }
+      }
+    </script>
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+      }
+    </script>
+  </body>
 </html>
