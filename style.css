@@ -14,6 +14,7 @@
 	padding: 14px;
 	text-decoration: none;
 	width: 14.28%;
+	font-family: fantasy;
   }
   
   /* menu hover */
@@ -44,7 +45,7 @@
   }
 
   #headlines{
-	width: 100%; 
+	width: 10cm; 
 	height: 1%;
   }
   
@@ -57,14 +58,6 @@
   
   #me {
 	  font-family: fantasy;
-  }
-  
-  h1{
-	font-family: themysciran;
-	color: rgb(134, 32, 32);
-	text-align: center;
-	text-decoration-color: black;
-	text-decoration: black;
   }
   
   * {box-sizing:border-box}
