@@ -206,6 +206,62 @@
       <br/>
       <br/>
       <br/>
+      <div style="font-family: fantasy;">1) 3 main differences between web1, web2 and web3:</div>
+      <br>
+      <br>
+      <table style="width:50%; margin-left: auto; margin-right: auto;">  
+        <tr>
+          <th>web1</th>
+          <th>web2</th>
+          <th>web3</th>
+        </tr>
+        <tr>
+          <td>consider as read-only web</td>
+          <td>read and write web</td>
+          <td>read, write and execute web</td>
+        </tr>
+        <tr>
+          <td>search engines
+            retrieve macro contents.Search is very fast but
+            many times results are
+            inaccurate</td>
+          <td>search engines
+            retrieve tags with micro contents.The process of
+            tagging is manual, tedious and
+            covers negligible percents of the
+            WWW.tags everything</td>
+          <td>search engines will
+            retrieve micro content
+            texts which were tagged
+            automatically. The result could be
+            more
+            precise search because tagging
+            can solve part of the ambiguity
+            that
+            homonyms and synonyms
+            introduce into the process of
+            Search. </td>
+        </tr>
+        <tr>
+          <td>targets on
+            content creativity of producer</td>
+          <td> targets on content creativity of users and producers</td>
+          <td>targets on
+            linked data sets.</td>
+        </tr>
+      </table>
+      <br>
+      <br>
+      <div style="font-family: fantasy;">2) usecase: searching for Wonder Woman new movie's trailer 1984
+      <br>
+      <br>
+      <li>web 1 :  to find the wanted result the user should write a specific URL.</li><br>
+      <li>web 2 : to find the wanted result the user should write "Wonder Woman 1984 - movie trailer" and he will get 
+        result from the query as web tags.</li><br>
+      <li>web 3 : to find the wanted result the user should wrote "Wonder Woman 1984 - movie trailer" 
+        and he will get result that contains the query words and semantic words as tags or web info.
+      </li>
+    </div>
     </section>
 
     <br/>
@@ -226,25 +282,26 @@
       <br/>
       <br/>
       <br/>
-      <form method="post" action="mailto:shayrokach198@gmail.com" enctype="text/plain">
-        <div style="font-family: fantasy;">
-          Name:
-          <br>
-          <input name="Name" />
-          <br><br>
-          E-Mail:
-          <br>
-          <input name="E-Mail" />
-          <br><br>
-          Message:
-          <br>
-          <textarea data-emoji-picker="true" rows="8" cols="40" name="Message"></textarea>
-      
-          <br/>
-          <input type="submit" value="Send" />
-      
-        </div>
-    </form>
+      <div class="container">
+        <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
+            <div class="form-group" style="font-family: fantasy;">
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                    </div>
+                    <br>
+                    <div class="col">
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="form-group">
+                <textarea data-emoji-picker="true" placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-lg btn-dark btn-block">Submit</button>
+        </form>
+      </div>
       
       <br/>
       <br/>
