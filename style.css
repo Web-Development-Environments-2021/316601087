@@ -19,12 +19,13 @@
   
   /* menu hover */
   #menu a:hover {
-	background: url('back.jpg') no-repeat;
+	background: rgba(0, 0, 0, 0.329);
   }
   
   /* menu active */
   #menu a:active {
-	background: #000;
+	background: url('back.jpg') no-repeat;
+	opacity: 0.8;
   }
   
   /* Page padding */
@@ -43,9 +44,8 @@
 	padding-top: 60px;
   }
 
-  #headlines{
-	width: 10cm; 
-	height: 1%;
+  .headlines{
+	text-align: center
   }
   
   body  {
